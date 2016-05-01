@@ -56,7 +56,6 @@
     background-color: #8E8E68;
 }
 
-
 .top-bar a {
     color: white;
 }
@@ -68,8 +67,8 @@ h1 {
 }
 
 .button-group a{
-        padding: 1em;
-    }
+    padding: 1em;
+}
 
 .button {
     background: transparent;
@@ -97,7 +96,7 @@ h1 {
     }
     .top-bar{
         margin-bottom: 2rem;
-}
+    }
 
 }
 
