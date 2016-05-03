@@ -85,7 +85,7 @@ h1 {
 
     /*This makes the text in the box larger and gives it a padding*/
     .intro-list {
-        padding-top: 2em;
+        padding-top: 1em;
         /*padding-left: 4em;*/
         font-size: 120%;
     }
@@ -115,8 +115,15 @@ a {
 }
 
 a:hover{
-    color: #AC5959;
-    background-color: #dfdfa7;
+    font-weight: bold;
+    font-size: 120%;
+    color: rgba(255, 166, 0, 0.59);
+}
+
+a.inbox_link{
+    color: #ffae00;;
+    font-weight: bold;
+    font-size: 120%;
 }
 
 /*.menu-icon, .title-bar-title {*/
@@ -132,7 +139,19 @@ a:hover{
     margin-bottom: 0.25rem;
 }
 
+.colour1{
+    background-color: #8E8E68;
+    color: white;
+    /*margin: 1em;*/
+    padding: 0.5em;
+}
 
+.colour2{
+    background-color: #AC5959;
+    color: white;
+    /*margin: 1em;*/
+    padding: 0.5em;
+}
 /*
 body {
     background: white;
