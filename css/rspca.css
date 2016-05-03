@@ -27,7 +27,8 @@
 .menu-icon,
 .title-bar-title {
     position: relative;
-    top: 10px; }
+    /*top: 10px;*/
+}
 
 /* Medium-Up Navigation */
 @media only screen and (min-width: 40rem) {
@@ -107,6 +108,9 @@ h1 {
     .top-bar{
         margin-bottom: 2rem;
     }
+    .button {
+        background: #8E8E68;
+    }
 
 }
 
@@ -115,13 +119,12 @@ a {
 }
 
 a:hover{
-    font-weight: bold;
-    font-size: 120%;
-    color: rgba(255, 166, 0, 0.59);
+    text-decoration: underline;
 }
 
 a.inbox_link{
-    color: #ffae00;;
+    color: white;
+    /*color: #ffae00;;*/
     font-weight: bold;
     font-size: 120%;
 }
