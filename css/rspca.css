@@ -171,6 +171,11 @@ a.inbox_link{
     background-color: #AC5959;
 }
 
+/*To reduce the margin-bottom to 0 as the default for p is 1*/
+div.panel p {
+    margin-bottom: 0;
+}
+
 .vol-box{
     background-color: #8E8E68;
 }
